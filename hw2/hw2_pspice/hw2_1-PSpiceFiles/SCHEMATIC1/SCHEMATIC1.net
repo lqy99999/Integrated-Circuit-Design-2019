@@ -1,0 +1,31 @@
+* source HW2_1
+M_M1         N14462 B VDD VDD PMOS           
+M_M2         N14462 A VDD VDD PMOS           
+M_M3         N14462 A N144540 N144540 NMOS           
+M_M4         N144540 B 0 0 NMOS           
+J_J2         CO N18675 GND JbreakN 
+J_J3         VDD B N18700 JbreakP 
+J_J4         VDD B N183211 JbreakP 
+J_J5         N18666 B GND JbreakN 
+J_J6         N18684 B GND JbreakN 
+J_J7         VDD A N18700 JbreakP 
+J_J8         N183211 A N18675 JbreakP 
+J_J9         N18675 A N18666 JbreakN 
+J_J10         N18684 A GND JbreakN 
+J_J11         VDD CI N18771 JbreakP 
+J_J12         N18700 CI N18675 JbreakP 
+J_J13         N18675 CI N18684 JbreakN 
+J_J14         N18771 CI GND JbreakN 
+J_J15         CI N19052 N19056 JbreakP 
+J_J16         N19056 N19052 N18771 JbreakN 
+J_J17         N19056 CI N19052 JbreakP 
+J_J18         N19056 N18771 N19052 JbreakN 
+J_J19         VDD N19056 S JbreakP 
+J_J20         S N19056 GND JbreakN 
+J_J21         VDD N19866 N19376 JbreakP 
+J_J22         N19376 N19866 GND JbreakN 
+J_J23         N19376 B N19420 JbreakP 
+J_J24         N19420 B A JbreakN 
+J_J25         B N19376 N19420 JbreakP 
+J_J26         B N19866 N19420 JbreakN 
+J_J1         VDD N18675 CO JbreakP 

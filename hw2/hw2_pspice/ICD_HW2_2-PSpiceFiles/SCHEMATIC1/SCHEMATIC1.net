@@ -1,0 +1,27 @@
+* source ICD_HW2_2
+M_M1         CO N14413 VDD VDD MbreakP           
+M_M2         CO N14413 0 0 MbreakN           
+M_M3         N15145 B VDD VDD MbreakP           
+M_M4         N145962 B VDD VDD MbreakP           
+M_M5         N146352 B 0 0 MbreakN           
+M_M6         N15185 B 0 0 MbreakN           
+M_M7         N15145 A VDD VDD MbreakP           
+M_M8         N14413 A N145962 N145962 MbreakP           
+M_M11         N15194 CI VDD VDD MbreakP           
+M_M12         N14413 CI N15145 N15145 MbreakP           
+M_M13         N14413 CI N15185 N15185 MbreakN           
+M_M10         N15185 A 0 0 MbreakN           
+M_M9         N14413 A N146352 N146352 MbreakN           
+M_M14         N15194 CI 0 0 MbreakN           
+M_M15         N15385 N15755 CI CI MbreakP           
+M_M16         N15385 N15755 N15194 N15194 MbreakN           
+M_M17         N15755 CI N15385 N15385 MbreakP           
+M_M18         N15385 N15194 N15755 N15755 MbreakN           
+M_M19         S N15385 VDD VDD MbreakP           
+M_M20         S N15385 0 0 MbreakN           
+M_M21         N15830 A VDD VDD MbreakP           
+M_M22         N15830 A 0 0 MbreakN           
+M_M23         N15755 B N15830 N15830 MbreakP           
+M_M24         N15755 B A A MbreakN           
+M_M25         N15755 N15830 B B MbreakP           
+M_M26         B A N15755 N15755 MbreakN           
